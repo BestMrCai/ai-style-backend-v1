@@ -1,4 +1,14 @@
+# 编译产物
+/bin/
+*.exe
+*.exe~
+
+# 日志
 *.log
+# 临时/探活
+_probe.tmp
+/pb/test/
+
 .env
 node_modules/
 __pycache__/
