@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: ai-style-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ai_style
+      POSTGRES_PASSWORD: change_me_local
+      POSTGRES_DB: ai_style_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - ai_style_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ai_style -d ai_style_db"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  ai_style_pgdata:

@@ -1,0 +1,982 @@
+[
+  {
+    "id": "m_crop_textured",
+    "kind": "hair",
+    "name": "清爽层次碎盖",
+    "desc": "两侧偏短、顶部保留层次，日常抓一抓就有型，不挑场合。",
+    "cover": "hairstyles/m_crop_textured.jpg",
+    "gender": "male",
+    "fit_gender": [
+      "male"
+    ],
+    "fit_shapes": [
+      "圆脸",
+      "鹅蛋脸",
+      "方脸"
+    ],
+    "fit_hairline": [
+      "圆弧上拱",
+      "自然圆弧"
+    ],
+    "fit_density": [
+      "适中",
+      "浓密"
+    ],
+    "fit_tone": [
+      "偏暖",
+      "接近中性"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": true,
+    "tags": [
+      "层次",
+      "露额",
+      "利落"
+    ],
+    "prompt_hint": "short textured crop, short sides, natural volume on top, soft fringe, matte finish, natural black hair",
+    "negative_hint": "flat slicked hair, helmet shape, greasy, over-styled",
+    "volume_weight": 0.55,
+    "fit_hairline_level": [
+      "适中"
+    ],
+    "avoid_hairline_level": [],
+    "avoid_shapes": [
+      "长脸"
+    ]
+  },
+  {
+    "id": "m_side_part_short",
+    "kind": "hair",
+    "name": "经典三七侧分",
+    "desc": "分缝清晰、发丝顺向一侧，适合通勤和正式场合。",
+    "cover": "hairstyles/m_side_part_short.jpg",
+    "gender": "male",
+    "fit_gender": [
+      "male"
+    ],
+    "fit_shapes": [
+      "圆脸",
+      "方脸",
+      "鹅蛋脸",
+      "心形脸"
+    ],
+    "fit_hairline": [
+      "圆弧上拱",
+      "自然圆弧",
+      "平直"
+    ],
+    "fit_density": [
+      "适中",
+      "浓密"
+    ],
+    "fit_tone": [
+      "接近中性",
+      "偏冷"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": false,
+    "tags": [
+      "侧分",
+      "露额",
+      "通勤"
+    ],
+    "prompt_hint": "classic 3/7 side part, short back and sides, neat combed top, natural shine, black hair",
+    "negative_hint": "messy, curly, long hair, wet look",
+    "volume_weight": 0.5,
+    "fit_hairline_level": [
+      "偏低",
+      "适中"
+    ],
+    "avoid_hairline_level": [
+      "偏高"
+    ],
+    "avoid_shapes": [
+      "长脸"
+    ]
+  },
+  {
+    "id": "m_buzz_clean",
+    "kind": "hair",
+    "name": "干净短寸",
+    "desc": "长度统一、几乎不需要打理，夏天尤其清爽。",
+    "cover": "hairstyles/m_buzz_clean.jpg",
+    "gender": "male",
+    "fit_gender": [
+      "male"
+    ],
+    "fit_shapes": [
+      "鹅蛋脸",
+      "方脸",
+      "心形脸"
+    ],
+    "fit_hairline": [
+      "自然圆弧",
+      "平直"
+    ],
+    "fit_density": [
+      "浓密"
+    ],
+    "fit_tone": [
+      "偏暖",
+      "接近中性",
+      "偏冷"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": true,
+    "tags": [
+      "短寸",
+      "免打理",
+      "清爽"
+    ],
+    "prompt_hint": "short buzz cut, uniform length, clean hairline, natural scalp shading, black hair",
+    "negative_hint": "long hair, fringe, volume on top",
+    "volume_weight": 0.2,
+    "fit_hairline_level": [
+      "偏低",
+      "适中"
+    ],
+    "avoid_hairline_level": [
+      "偏高"
+    ],
+    "avoid_shapes": [
+      "圆脸",
+      "梨形脸"
+    ]
+  },
+  {
+    "id": "m_fringe_soft",
+    "kind": "hair",
+    "name": "自然前额碎刘海",
+    "desc": "额前留一层轻薄刘海，能自然遮住发际线偏高的一段。",
+    "cover": "hairstyles/m_fringe_soft.jpg",
+    "gender": "male",
+    "fit_gender": [
+      "male"
+    ],
+    "fit_shapes": [
+      "长脸",
+      "长脸·方下颌",
+      "鹅蛋脸"
+    ],
+    "fit_hairline": [
+      "圆弧上拱",
+      "中间下探"
+    ],
+    "fit_density": [
+      "适中"
+    ],
+    "fit_tone": [
+      "偏暖",
+      "接近中性"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": true,
+    "tags": [
+      "刘海",
+      "修饰额前",
+      "轻柔"
+    ],
+    "prompt_hint": "soft textured fringe, light bangs covering forehead, short sides, natural black hair",
+    "negative_hint": "exposed forehead, slicked back, heavy helmet fringe",
+    "volume_weight": 0.6,
+    "fit_hairline_level": [
+      "适中",
+      "偏高"
+    ],
+    "avoid_hairline_level": [
+      "偏低"
+    ],
+    "avoid_shapes": [
+      "圆脸"
+    ]
+  },
+  {
+    "id": "m_mid_part_wave",
+    "kind": "hair",
+    "name": "中分微卷中短发",
+    "desc": "中分后自然外翻，能柔和中庭偏长的观感。",
+    "cover": "hairstyles/m_mid_part_wave.jpg",
+    "gender": "male",
+    "fit_gender": [
+      "male"
+    ],
+    "fit_shapes": [
+      "长脸",
+      "长脸·方下颌",
+      "鹅蛋脸"
+    ],
+    "fit_hairline": [
+      "中间下探",
+      "自然圆弧"
+    ],
+    "fit_density": [
+      "适中",
+      "浓密"
+    ],
+    "fit_tone": [
+      "偏冷",
+      "接近中性"
+    ],
+    "requires": [
+      "cut",
+      "perm"
+    ],
+    "school_friendly": false,
+    "tags": [
+      "中分",
+      "微卷",
+      "中短发"
+    ],
+    "prompt_hint": "medium length middle part hair, soft loose waves, natural fall around ears, black hair",
+    "negative_hint": "buzz cut, flat straight hair, heavy gel",
+    "volume_weight": 0.7,
+    "fit_hairline_level": [
+      "适中"
+    ],
+    "avoid_hairline_level": [],
+    "avoid_shapes": [
+      "圆脸"
+    ]
+  },
+  {
+    "id": "m_undercut_volume",
+    "kind": "hair",
+    "name": "高顶两侧推短",
+    "desc": "顶部保留高度、两侧推短，从视觉上拉长纵向比例。",
+    "cover": "hairstyles/m_undercut_volume.jpg",
+    "gender": "male",
+    "fit_gender": [
+      "male"
+    ],
+    "fit_shapes": [
+      "圆脸",
+      "方脸"
+    ],
+    "fit_hairline": [
+      "自然圆弧",
+      "平直"
+    ],
+    "fit_density": [
+      "浓密"
+    ],
+    "fit_tone": [
+      "接近中性",
+      "偏暖"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": false,
+    "tags": [
+      "高顶",
+      "推短",
+      "利落"
+    ],
+    "prompt_hint": "high volume undercut, faded sides, textured top standing up, natural black hair",
+    "negative_hint": "flat hair, long sides, fringe covering forehead",
+    "volume_weight": 0.8,
+    "fit_hairline_level": [
+      "偏低",
+      "适中"
+    ],
+    "avoid_hairline_level": [
+      "偏高"
+    ],
+    "avoid_shapes": [
+      "长脸",
+      "长脸·方下颌"
+    ]
+  },
+  {
+    "id": "m_curly_short",
+    "kind": "hair",
+    "name": "松散小卷短发",
+    "desc": "卷度带来自然的蓬松感，适合发量偏少时增加视觉厚度。",
+    "cover": "hairstyles/m_curly_short.jpg",
+    "gender": "male",
+    "fit_gender": [
+      "male"
+    ],
+    "fit_shapes": [
+      "鹅蛋脸",
+      "心形脸",
+      "长脸"
+    ],
+    "fit_hairline": [
+      "圆弧上拱",
+      "自然圆弧"
+    ],
+    "fit_density": [
+      "稀疏",
+      "适中"
+    ],
+    "fit_tone": [
+      "偏暖",
+      "接近中性"
+    ],
+    "requires": [
+      "cut",
+      "perm"
+    ],
+    "school_friendly": false,
+    "tags": [
+      "小卷",
+      "蓬松",
+      "自然"
+    ],
+    "prompt_hint": "short loose curly hair, soft natural curls, airy volume, black hair",
+    "negative_hint": "straight flat hair, tight ringlets, greasy",
+    "volume_weight": 0.75,
+    "fit_hairline_level": [
+      "适中"
+    ],
+    "avoid_hairline_level": [],
+    "avoid_shapes": [
+      "长脸"
+    ]
+  },
+  {
+    "id": "m_slick_back",
+    "kind": "hair",
+    "name": "后梳整齐背头",
+    "desc": "整体向后梳理，露出完整面部轮廓，适合正式场合。",
+    "cover": "hairstyles/m_slick_back.jpg",
+    "gender": "male",
+    "fit_gender": [
+      "male"
+    ],
+    "fit_shapes": [
+      "方脸",
+      "鹅蛋脸",
+      "长脸"
+    ],
+    "fit_hairline": [
+      "平直",
+      "自然圆弧"
+    ],
+    "fit_density": [
+      "浓密"
+    ],
+    "fit_tone": [
+      "偏冷",
+      "接近中性"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": false,
+    "tags": [
+      "背头",
+      "露额",
+      "正式"
+    ],
+    "prompt_hint": "slicked back hair, neat comb lines, exposed forehead, subtle shine, black hair",
+    "negative_hint": "fringe, messy, unkempt",
+    "volume_weight": 0.5,
+    "fit_hairline_level": [
+      "偏低",
+      "适中"
+    ],
+    "avoid_hairline_level": [
+      "偏高"
+    ],
+    "avoid_shapes": [
+      "长脸",
+      "梨形脸"
+    ]
+  },
+  {
+    "id": "m_bowl_soft",
+    "kind": "hair",
+    "name": "轻柔圆盖短发",
+    "desc": "发尾自然贴合耳际，线条柔和，适合学生日常。",
+    "cover": "hairstyles/m_bowl_soft.jpg",
+    "gender": "male",
+    "fit_gender": [
+      "male"
+    ],
+    "fit_shapes": [
+      "圆脸",
+      "心形脸",
+      "鹅蛋脸"
+    ],
+    "fit_hairline": [
+      "圆弧上拱",
+      "中间下探"
+    ],
+    "fit_density": [
+      "适中",
+      "浓密"
+    ],
+    "fit_tone": [
+      "偏暖",
+      "接近中性"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": true,
+    "tags": [
+      "圆盖",
+      "柔和",
+      "学生"
+    ],
+    "prompt_hint": "soft bowl cut, gentle rounded silhouette, hair falling near ears, natural black hair",
+    "negative_hint": "harsh bowl cut, shaved sides, spiky",
+    "volume_weight": 0.65,
+    "fit_hairline_level": [
+      "适中",
+      "偏高"
+    ],
+    "avoid_hairline_level": [
+      "偏低"
+    ],
+    "avoid_shapes": [
+      "长脸"
+    ]
+  },
+  {
+    "id": "m_long_layer_tie",
+    "kind": "hair",
+    "name": "可扎长层次",
+    "desc": "保留一定长度与层次，日常可扎可放，变化空间大。",
+    "cover": "hairstyles/m_long_layer_tie.jpg",
+    "gender": "male",
+    "fit_gender": [
+      "male"
+    ],
+    "fit_shapes": [
+      "长脸",
+      "鹅蛋脸"
+    ],
+    "fit_hairline": [
+      "自然圆弧",
+      "中间下探"
+    ],
+    "fit_density": [
+      "适中",
+      "浓密"
+    ],
+    "fit_tone": [
+      "偏冷",
+      "接近中性"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": false,
+    "tags": [
+      "长发",
+      "层次",
+      "多变"
+    ],
+    "prompt_hint": "medium long layered hair, can be tied back, natural texture, black hair",
+    "negative_hint": "short buzz, heavy product, flat",
+    "volume_weight": 0.7,
+    "fit_hairline_level": [
+      "适中"
+    ],
+    "avoid_hairline_level": [],
+    "avoid_shapes": [
+      "圆脸"
+    ]
+  },
+  {
+    "id": "f_shoulder_layer",
+    "kind": "hair",
+    "name": "锁骨层次长发",
+    "desc": "发尾落在锁骨附近，层次让整体更轻盈，不压头型。",
+    "cover": "hairstyles/f_shoulder_layer.jpg",
+    "gender": "female",
+    "fit_gender": [
+      "female"
+    ],
+    "fit_shapes": [
+      "圆脸",
+      "方脸",
+      "鹅蛋脸"
+    ],
+    "fit_hairline": [
+      "圆弧上拱",
+      "自然圆弧"
+    ],
+    "fit_density": [
+      "适中",
+      "浓密"
+    ],
+    "fit_tone": [
+      "偏暖",
+      "接近中性"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": true,
+    "tags": [
+      "锁骨发",
+      "层次",
+      "轻盈"
+    ],
+    "prompt_hint": "collarbone length layered hair, soft natural ends, gentle inward curve, black hair",
+    "negative_hint": "stiff blunt cut, heavy bulk at ends, greasy",
+    "volume_weight": 0.6,
+    "fit_hairline_level": [
+      "适中"
+    ],
+    "avoid_hairline_level": [],
+    "avoid_shapes": [
+      "梨形脸"
+    ]
+  },
+  {
+    "id": "f_air_bangs_short",
+    "kind": "hair",
+    "name": "空气刘海短发",
+    "desc": "额前一层轻薄刘海，能自然衔接发际线，整体清爽。",
+    "cover": "hairstyles/f_air_bangs_short.jpg",
+    "gender": "female",
+    "fit_gender": [
+      "female"
+    ],
+    "fit_shapes": [
+      "长脸",
+      "鹅蛋脸",
+      "心形脸"
+    ],
+    "fit_hairline": [
+      "圆弧上拱",
+      "中间下探"
+    ],
+    "fit_density": [
+      "适中"
+    ],
+    "fit_tone": [
+      "偏暖",
+      "接近中性"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": true,
+    "tags": [
+      "空气刘海",
+      "短发",
+      "轻盈"
+    ],
+    "prompt_hint": "short hair with airy wispy bangs, light forehead coverage, natural volume, black hair",
+    "negative_hint": "heavy solid fringe, blunt bangs, flat hair",
+    "volume_weight": 0.55,
+    "fit_hairline_level": [
+      "适中",
+      "偏高"
+    ],
+    "avoid_hairline_level": [
+      "偏低"
+    ],
+    "avoid_shapes": [
+      "圆脸"
+    ]
+  },
+  {
+    "id": "f_mid_wave_long",
+    "kind": "hair",
+    "name": "中长微卷披发",
+    "desc": "自然波浪从面颊两侧下落，柔和脸部轮廓线条。",
+    "cover": "hairstyles/f_mid_wave_long.jpg",
+    "gender": "female",
+    "fit_gender": [
+      "female"
+    ],
+    "fit_shapes": [
+      "方脸",
+      "长脸·方下颌",
+      "圆脸"
+    ],
+    "fit_hairline": [
+      "自然圆弧",
+      "平直"
+    ],
+    "fit_density": [
+      "适中",
+      "浓密"
+    ],
+    "fit_tone": [
+      "偏冷",
+      "接近中性"
+    ],
+    "requires": [
+      "cut",
+      "perm"
+    ],
+    "school_friendly": false,
+    "tags": [
+      "微卷",
+      "中长发",
+      "披发"
+    ],
+    "prompt_hint": "medium long soft wavy hair, loose natural waves framing the face, black hair",
+    "negative_hint": "tight curls, straight flat hair, heavy fringe",
+    "volume_weight": 0.75,
+    "fit_hairline_level": [
+      "适中"
+    ],
+    "avoid_hairline_level": [],
+    "avoid_shapes": [
+      "长脸"
+    ]
+  },
+  {
+    "id": "f_side_part_bob",
+    "kind": "hair",
+    "name": "侧分波波头",
+    "desc": "侧分让发顶自然蓬起，整体轮廓干净利落。",
+    "cover": "hairstyles/f_side_part_bob.jpg",
+    "gender": "female",
+    "fit_gender": [
+      "female"
+    ],
+    "fit_shapes": [
+      "圆脸",
+      "鹅蛋脸",
+      "心形脸"
+    ],
+    "fit_hairline": [
+      "平直",
+      "自然圆弧"
+    ],
+    "fit_density": [
+      "适中",
+      "浓密"
+    ],
+    "fit_tone": [
+      "接近中性",
+      "偏暖"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": true,
+    "tags": [
+      "波波头",
+      "侧分",
+      "利落"
+    ],
+    "prompt_hint": "side parted bob cut, chin length, smooth finish, natural lift at roots, black hair",
+    "negative_hint": "long hair, heavy bangs, frizzy",
+    "volume_weight": 0.55,
+    "fit_hairline_level": [
+      "偏低",
+      "适中"
+    ],
+    "avoid_hairline_level": [
+      "偏高"
+    ],
+    "avoid_shapes": [
+      "梨形脸",
+      "长脸"
+    ]
+  },
+  {
+    "id": "f_ponytail_high",
+    "kind": "hair",
+    "name": "高马尾扎发",
+    "desc": "全部收起的扎发，露出完整面部，适合日常与运动。",
+    "cover": "hairstyles/f_ponytail_high.jpg",
+    "gender": "female",
+    "fit_gender": [
+      "female"
+    ],
+    "fit_shapes": [
+      "鹅蛋脸",
+      "心形脸",
+      "圆脸"
+    ],
+    "fit_hairline": [
+      "自然圆弧",
+      "圆弧上拱"
+    ],
+    "fit_density": [
+      "适中",
+      "浓密"
+    ],
+    "fit_tone": [
+      "偏暖",
+      "接近中性",
+      "偏冷"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": true,
+    "tags": [
+      "扎发",
+      "高马尾",
+      "清爽"
+    ],
+    "prompt_hint": "high ponytail, hair pulled back neatly, exposed face, natural texture, black hair",
+    "negative_hint": "loose hair covering face, messy, heavy fringe",
+    "volume_weight": 0.5,
+    "fit_hairline_level": [
+      "偏低",
+      "适中"
+    ],
+    "avoid_hairline_level": [
+      "偏高"
+    ],
+    "avoid_shapes": [
+      "方脸",
+      "梨形脸"
+    ]
+  },
+  {
+    "id": "f_curtain_bangs",
+    "kind": "hair",
+    "name": "八字刘海中长发",
+    "desc": "两缕刘海从额角自然分开，同时修饰额头与脸颊。",
+    "cover": "hairstyles/f_curtain_bangs.jpg",
+    "gender": "female",
+    "fit_gender": [
+      "female"
+    ],
+    "fit_shapes": [
+      "圆脸",
+      "方脸",
+      "鹅蛋脸",
+      "长脸"
+    ],
+    "fit_hairline": [
+      "圆弧上拱",
+      "中间下探",
+      "平直"
+    ],
+    "fit_density": [
+      "适中",
+      "浓密"
+    ],
+    "fit_tone": [
+      "接近中性",
+      "偏冷"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": true,
+    "tags": [
+      "八字刘海",
+      "修饰",
+      "中长发"
+    ],
+    "prompt_hint": "curtain bangs parted in the middle, medium long hair, soft framing, black hair",
+    "negative_hint": "blunt fringe, straight flat bangs, wet look",
+    "volume_weight": 0.6,
+    "fit_hairline_level": [
+      "适中",
+      "偏高"
+    ],
+    "avoid_hairline_level": [
+      "偏低"
+    ],
+    "avoid_shapes": []
+  },
+  {
+    "id": "f_short_pixie",
+    "kind": "hair",
+    "name": "轻盈短发",
+    "desc": "整体偏短、线条轻快，露出颈部，显得精神。",
+    "cover": "hairstyles/f_short_pixie.jpg",
+    "gender": "female",
+    "fit_gender": [
+      "female"
+    ],
+    "fit_shapes": [
+      "鹅蛋脸",
+      "心形脸",
+      "长脸"
+    ],
+    "fit_hairline": [
+      "自然圆弧",
+      "平直"
+    ],
+    "fit_density": [
+      "适中"
+    ],
+    "fit_tone": [
+      "偏冷",
+      "接近中性"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": false,
+    "tags": [
+      "短发",
+      "轻盈",
+      "露颈"
+    ],
+    "prompt_hint": "short pixie style hair, light texture, exposed neck and ears, natural black hair",
+    "negative_hint": "long hair, heavy volume, bulky silhouette",
+    "volume_weight": 0.4,
+    "fit_hairline_level": [
+      "偏低",
+      "适中"
+    ],
+    "avoid_hairline_level": [
+      "偏高"
+    ],
+    "avoid_shapes": [
+      "圆脸",
+      "梨形脸"
+    ]
+  },
+  {
+    "id": "f_braid_daily",
+    "kind": "hair",
+    "name": "日常侧编发",
+    "desc": "侧边编发收拢发丝，整体干净，也方便活动。",
+    "cover": "hairstyles/f_braid_daily.jpg",
+    "gender": "female",
+    "fit_gender": [
+      "female"
+    ],
+    "fit_shapes": [
+      "圆脸",
+      "鹅蛋脸",
+      "心形脸"
+    ],
+    "fit_hairline": [
+      "圆弧上拱",
+      "自然圆弧"
+    ],
+    "fit_density": [
+      "适中",
+      "浓密"
+    ],
+    "fit_tone": [
+      "偏暖",
+      "接近中性"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": true,
+    "tags": [
+      "编发",
+      "侧编",
+      "干净"
+    ],
+    "prompt_hint": "side braid hairstyle, neat loose braid over one shoulder, natural texture, black hair",
+    "negative_hint": "loose messy hair, tight rigid braid",
+    "volume_weight": 0.5,
+    "fit_hairline_level": [
+      "适中"
+    ],
+    "avoid_hairline_level": [],
+    "avoid_shapes": [
+      "梨形脸"
+    ]
+  },
+  {
+    "id": "f_layer_face_frame",
+    "kind": "hair",
+    "name": "面部轮廓层次发",
+    "desc": "沿面部轮廓剪出的层次，能柔化下颌与颧部线条。",
+    "cover": "hairstyles/f_layer_face_frame.jpg",
+    "gender": "female",
+    "fit_gender": [
+      "female"
+    ],
+    "fit_shapes": [
+      "方脸",
+      "长脸·方下颌",
+      "梨形脸",
+      "圆脸"
+    ],
+    "fit_hairline": [
+      "自然圆弧",
+      "平直"
+    ],
+    "fit_density": [
+      "适中",
+      "浓密"
+    ],
+    "fit_tone": [
+      "接近中性",
+      "偏暖"
+    ],
+    "requires": [
+      "cut"
+    ],
+    "school_friendly": false,
+    "tags": [
+      "轮廓层次",
+      "修饰",
+      "中长发"
+    ],
+    "prompt_hint": "face framing layers, medium long hair, soft graduated layers around jawline, black hair",
+    "negative_hint": "blunt single length cut, heavy bangs",
+    "volume_weight": 0.65,
+    "fit_hairline_level": [
+      "适中"
+    ],
+    "avoid_hairline_level": [],
+    "avoid_shapes": [
+      "长脸"
+    ]
+  },
+  {
+    "id": "f_soft_waves_light",
+    "kind": "hair",
+    "name": "浅调自然卷",
+    "desc": "在自然发色上做浅一档的色调，光影下更有层次感。",
+    "cover": "hairstyles/f_soft_waves_light.jpg",
+    "gender": "female",
+    "fit_gender": [
+      "female"
+    ],
+    "fit_shapes": [
+      "鹅蛋脸",
+      "长脸",
+      "心形脸"
+    ],
+    "fit_hairline": [
+      "自然圆弧",
+      "圆弧上拱"
+    ],
+    "fit_density": [
+      "适中",
+      "浓密"
+    ],
+    "fit_tone": [
+      "偏冷",
+      "接近中性"
+    ],
+    "requires": [
+      "cut",
+      "color"
+    ],
+    "school_friendly": false,
+    "tags": [
+      "染发",
+      "浅调",
+      "自然卷"
+    ],
+    "prompt_hint": "soft natural waves with a one-tone lighter brown shade, dimensional color, natural finish",
+    "negative_hint": "bleached platinum, high saturation color, extreme ombre",
+    "volume_weight": 0.7,
+    "fit_hairline_level": [
+      "适中"
+    ],
+    "avoid_hairline_level": [],
+    "avoid_shapes": [
+      "圆脸"
+    ]
+  }
+]

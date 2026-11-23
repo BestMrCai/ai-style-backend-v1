@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package face;
+option go_package = "./pb";
+
+// 定义面部分析服务
+service FaceAnalyzer {
+  // 发送图片二进制，返回结构化面部数据
+  rpc AnalyzeFace (FaceRequest) returns (FaceResponse);
+}
+
+message FaceRequest {
+  bytes image_data = 1; // 直接传输图片的二进制字节流
+}
+
+message FaceResponse {
+  string face_shape = 1;     // 脸型，如：圆脸
+  float face_ratio = 2;      // 脸长宽比
+  float upper_third = 3;     // 上庭比例
+  float middle_third = 4;    // 中庭比例
+  float lower_third = 5;     // 下庭比例
+  string message = 6;        // 状态信息
+}

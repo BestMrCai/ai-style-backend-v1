@@ -1,0 +1,2 @@
+ALTER TABLE user_photos
+DROP CONSTRAINT IF EXISTS user_photos_photo_type_check;
